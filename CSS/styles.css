@@ -1,0 +1,25 @@
+#content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 1.5em;
+    background-color: #ccc;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 10px; /*if you use a percent it will make them cirular or oval*/
+}
+
+a:hover {
+    color: white;
+    background-color: gray;
+}
