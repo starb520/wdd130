@@ -153,3 +153,7 @@ footer a:hover {
 main section img {
     box-sizing: border-box;
 }
+
+.mountains {
+    margin: 200px 0;
+}
