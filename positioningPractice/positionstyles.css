@@ -146,10 +146,12 @@
   background-color: red; 
 } 
 .green5 { 
-  width: 100px; 
-  height: 100px; 
+  width: 200px; 
+  height: 200px; 
   background-color: green; 
   float: left;
+  margin-right: 10px;
+  
 
 } 
 .yellow5 {
