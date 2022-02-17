@@ -55,7 +55,7 @@ nav a:hover {
 }
 
 #hero-msg h4 {
-    color: #9c9fa1;
+    color: #a09f9e;
 }
 
 #hero-img {
@@ -90,7 +90,7 @@ body {
 }
 
 header {
-    background-color: #878472;
+    background-color: #909396;
     display: grid;
     grid-template-columns: 150px auto;
 }
