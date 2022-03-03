@@ -55,7 +55,7 @@ nav a:hover {
 }
 
 #hero-msg h4 {
-    color: #a09f9e;
+    color: whitesmoke;
 }
 
 #hero-img {
@@ -232,6 +232,28 @@ main section img {
     width: 100%;
 }
 
+.text_background {
+    background-color: #265e7c;
+
+}
+
+.text_background p {
+    color: #b3b8b8;
+}
+
+#headline_quote h3 {
+    background-color:#909494;
+}
+
+#big_text h2 {
+    background-color: #676865;
+    font-size: 45px;
+}
+
+#calm_river_image {
+    width: 100%;
+}
+
 /*Code give to us to make the Rafting Website page responsive*/
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
@@ -273,4 +295,6 @@ main section img {
     footer {
         margin-top: 25px;
     }
+
+ 
 }
