@@ -231,27 +231,65 @@ main section img {
 .card-img, .mountains {
     width: 100%;
 }
-
-.text_background {
-    background-color: #265e7c;
-
-}
-
-.text_background p {
-    color: #b3b8b8;
-}
-
-#headline_quote h3 {
-    background-color:#909494;
-}
-
-#big_text h2 {
-    background-color: #676865;
-    font-size: 45px;
-}
+ /* river_skill_level css begins*/
 
 #calm_river_image {
     width: 100%;
+}
+
+.choose_your_adventure {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.headline_quote_b {
+    grid-column: 3/6;
+    grid-row: 1/2;
+}
+
+.headline_quote_i {
+    grid-column: 3/6;
+    grid-row: 1/2;
+}
+
+.headline_quote_a {
+    grid-column: 3/6;
+    grid-row: 1/2;
+}
+#beginner {
+    grid-column: 1/4;
+    grid-row: 2/5;
+    width: 100%;
+}
+
+#intermediate {
+    grid-column: 1/4;
+    grid-row: 7/10;
+    width: 100%;
+}
+
+#advanced {
+    grid-column: 1/4;
+    grid-row: 11/15;
+    width: 100%;
+}
+
+#beginner_text {
+    grid-column: 5/8;
+    grid-row: 2/5;
+    background-color: #265e7c;
+}
+
+#intermediate_text {
+    grid-column: 5/8;
+    grid-row: 7/10;
+    background-color: #265e7c;
+}
+
+#advanced_text {
+    grid-column: 5/8;
+    grid-row: 11/15;
+    background-color: #265e7c;
 }
 
 /*Code give to us to make the Rafting Website page responsive*/
