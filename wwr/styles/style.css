@@ -243,12 +243,16 @@ main section img {
 }
 
 #big_text {
-    background-color: #8f9192;
+    background-color: #6f7364;
     position: absolute;
-    left: 35%;
-    top: 80%;
+    left: 28%;
+    top: 83%;
     padding: 20px;
+    border-radius: 50%;
+    font-size: 30px;
+    border: 8px solid #4e4e4c;
 }
+
 .choose_your_adventure {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -257,26 +261,30 @@ main section img {
 .headline_quote_b {
     grid-column: 2/5;
     grid-row: 2/3;
-    margin-top: 40px;
     width: 100%;
-    text-align: center;
 }
 
 .headline_quote_b h3 {
     padding: 20px;
     background-color: #8f9192;
+    margin: 140px 200px 5px 225px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    border-radius: 5px;
 }
 
 .headline_quote_i {
     grid-column: 2/5;
     grid-row: 5/6;
     margin-top: 40px;
-    text-align: center;
 }
 
 .headline_quote_i h3 {
     background-color: #8f9192;
-    padding: 20px;
+    margin: 40px 100px 5px 130px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    border-radius: 5px;
 }
 
 .headline_quote_a {
@@ -286,8 +294,10 @@ main section img {
 }
 
 .headline_quote_a h3 {
-    padding: 20px;
     background-color: #8f9192;
+    margin: 80px 200px 5px 235px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 5px;
 }
 
 
@@ -296,6 +306,7 @@ main section img {
     grid-row: 3/5;
     width: 100%;
     padding-left: 20px;
+    margin-left: 20px;
 }
 
 #intermediate {
@@ -303,6 +314,8 @@ main section img {
     grid-row: 6/8;
     width: 100%;
     padding-left: 20px;
+    margin-left: 20px;
+
 }
 
 #advanced {
@@ -311,6 +324,8 @@ main section img {
     width: 100%;
     padding-left: 20px;
     margin-bottom: -100px;
+    margin-left: 20px;
+
 }
 
 #beginner_text {
@@ -319,14 +334,20 @@ main section img {
     background-color: #265e7c;
     margin-right: 20px;
     padding: 25px;
+    color: white;
+    margin-right: 35px;
+    box-shadow: 5px 5px 10px #6f7364
+    
 }
 
 #intermediate_text {
     grid-column: 4/6;
     grid-row: 6/8;
     background-color: #265e7c;
-    margin-right: 20px;
+    margin-right: 35px;
     padding: 25px;
+    color: white;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 #advanced_text {
@@ -336,6 +357,9 @@ main section img {
     margin-right: 20px;
     margin-bottom: -100px;
     padding: 25px;
+    color: white;
+    margin-right: 35px;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 /*Code give to us to make the Rafting Website page responsive*/
