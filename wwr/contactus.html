@@ -7,15 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="styles/style.css">
-    <div id="feedback"></div>
     <style>
         form {
             /* Center the form on the page */
             margin: 0 auto;
             margin-top: 50px;
-            width: 425px;                          /* label wasn't showing completely, when it was widened kept 
-                                                      popping to the next line, had to make the width of the form
-                                                      bigger */
+            width: 425px;                         
             /* Form outline */
             padding: 1em;
             border: 1px solid #CCC;
@@ -35,12 +32,11 @@
         label {
             /* Uniform size & alignment */
             display: inline-block;
-            width: 100px;                            /* label wasn't showing completely, changed the width */
+            width: 100px;                           
             text-align: right;
         }
 
-        input,
-        textarea {
+        input, textarea {
             /* To make sure that all text fields have the same font settings, by default, text
                areas have a monospace font */
             font: 1em sans-serif;
@@ -53,8 +49,7 @@
             border: 1px solid #999;
         }
 
-        input:focus,
-        textarea:focus {
+        input:focus, textarea:focus {
             /* Additional highlight for focused elements */
             border-color: #000;
         }
@@ -69,7 +64,7 @@
 
         .button {
             /* Align buttons with the text fields */
-            padding-left: 90px; /* same size as the label elements */
+            padding-left: 140px; /* same size as the label elements */
         }
 
         button {
@@ -131,6 +126,7 @@
                     </li>
                 </ul>
             </form>
+            <div id="feedback"></div>
 
         </main>
 
