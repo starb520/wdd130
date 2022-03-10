@@ -243,7 +243,7 @@ main section img {
 }
 
 #big_text {
-    background-color: #6f7364;
+    background-color: #736a64;
     position: absolute;
     left: 28%;
     top: 83%;
@@ -251,6 +251,7 @@ main section img {
     border-radius: 50%;
     font-size: 30px;
     border: 8px solid #4e4e4c;
+    font-family:  'Josefin Sans';
 }
 
 .choose_your_adventure {
