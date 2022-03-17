@@ -1,3 +1,176 @@
 
 /* import the color pallette I would like to use */
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat:ital,wght@1,200&family=Raleway:wght@300&family=Zen+Kaku+Gothic+Antique&display=swap');
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Architects Daughter', 'Josefin Sans', sans-serif, Helvetica, sans-serif;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+
+}
+
+.logo {
+    width: 135px;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+nav a {
+    text-align: center;
+    color: #265e7c;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #EEF1EF;
+    color: #53131E; 
+}
+
+header {
+    background-color: #adb6bd;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+
+
+
+#introduction_to_tutoring {
+    background-color: #265e7c;
+    margin: 25px 20px 5px 20px;
+    display: flex; 
+    justify-content: space-around;
+    font-family: 'Zen Kaku Gothic Antique'; 
+    border-radius: 5px; 
+}
+
+#introduction_to_tutoring #circle {
+    background-color:#adb6bd;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%; 
+    position: relative;
+    margin: 10px 0 10px 0;
+}
+
+#introduction_to_tutoring #circle h3{
+    font-size: 45px;
+    margin: 0;
+    margin: 47px 0 0 15px;
+}
+
+#introduction_to_tutoring h2 {
+    font-size: 55px;
+    font-family: 'Architects Daughter';
+    color:#ddebf7; 
+    align-self:center;
+    padding-left: 0;
+    position:relative;
+    right: 4%;
+    text-shadow: 2px 2px #444546;
+}
+
+
+
+li {
+    padding-bottom: 20px;
+}
+
+
+#what_is_it {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    margin-bottom: -150px;
+    background-color: #e2e7eb;
+}
+
+#what_is_it h3 {
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: 'Architects Daughter';
+    position: absolute;
+    line-height: 30px;
+    color: #A93F55;
+    text-align: center;
+}
+
+.students_working_together {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 300px;
+    margin-left: 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+#tutoring_is_bulletpoints {
+    margin: 200px 15px 0 25px;
+    background-color: #c3c6c9;
+    font-family: 'Zen Kaku Gothic Antique';
+    font-size: 20px;
+    grid-column: 2/3;
+    padding: 25px;
+    font-weight: bold;
+}
+
+
+
+
+
+footer h3 {
+    color: black;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+h2 {
+    margin: 0;
+}
+
+footer {
+    background-color: #adb6bd;
+    margin-top: 200px;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Architects Daughter';
+}
+
+footer a {
+    color: #265e7c;
+    text-decoration: none;
+}
+
+footer h3 a:hover {
+    text-decoration: underline;
+    color: #53131E;
+}
+
+footer h3 {
+    color: #A93F55;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+footer a:hover {
+    color: #424444;
+}
