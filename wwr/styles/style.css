@@ -361,7 +361,7 @@ main section img {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-/*Code give to us to make the Rafting Website page responsive*/
+/*Code given to us to make the Rafting Website page responsive*/
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
