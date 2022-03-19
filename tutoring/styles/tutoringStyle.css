@@ -53,6 +53,7 @@ header {
     justify-content: space-around;
     font-family: 'Zen Kaku Gothic Antique'; 
     border-radius: 5px; 
+    max-width: 1600px;
 }
 
 #introduction_to_tutoring #circle {
@@ -93,6 +94,7 @@ li {
     grid-template-columns: 1fr 1fr;
     margin: 50px 20px -150px 20px;
     background-color: #e2e7eb;
+    max-width: 1600px;
 }
 
 #what_is_it h3 {
@@ -152,6 +154,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     font-family: 'Architects Daughter';
+    max-width: 1600px;
 }
 
 footer a {
@@ -181,4 +184,7 @@ footer a:hover {
         display: block;
     }
     
+    /* body {
+        display: block;
+    } */
 }
