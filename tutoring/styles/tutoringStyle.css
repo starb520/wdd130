@@ -17,6 +17,7 @@
 .logo {
     width: 135px;
     border-radius: 50%;
+    margin-left: 75px;
 }
 
 nav {
@@ -132,15 +133,18 @@ li {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     font-family: 'Zen Kaku Gothic Antique';
+    /* background-color:#e2e7eb; */
 }
 
 #title {
     grid-column: 3/5;
     grid-row: 1/2;
-    width: 500px;
-    height: 100px;
     font-size: 55px;
-    background-color:#adb6bd;
+    margin-top: 130px;
+    margin-left: 100px;
+    color:#e2e7eb;
+    font-family: 'Architects Daughter';
+    text-shadow: 2px 2px #444546;
 
 }
 
@@ -151,7 +155,7 @@ li {
     align-self: center;
     justify-self: center;
     margin: 75px 0 0 70px;
-    border: 40px solid #9e9fa0;
+    border: 40px solid #5b5b5c;
     border-radius: 5px;
 }
 
@@ -167,6 +171,7 @@ li {
     font-size: 23px;
     margin-top: 250px;
     line-height: 45px;
+    border: 10px solid #5b5b5c;
 
 }
 
@@ -179,9 +184,8 @@ li {
     border-radius: 50%;  
     font-size: 45px; 
     padding: 0 0 20px 30px;
-    margin-top: -5x;
+    margin-top: -5px;
     margin-right: 200px;
-    /* margin: 43px 250px 0 0; */
     border: 5px solid #9e9fa0;
 }
 
@@ -195,6 +199,8 @@ li {
     color:#265e7c;
     font-size: 30px;
     line-height: 50px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 #WHEN {
@@ -206,10 +212,10 @@ li {
     border-radius: 50%;
     font-size: 45px; 
     padding: 0 15px 20px 15px;
-    margin-left: 195px;
+    margin-left: 240px;
     margin-top: 125px;
     border: 5px solid #9e9fa0;
-    margin-bottom: -40px;
+    margin-bottom: -20px;
 }
 
 
