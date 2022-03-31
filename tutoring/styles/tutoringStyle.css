@@ -231,7 +231,7 @@ li {
 /* Page 3 CSS */
 #tutoring_how {
     display: grid;
-    grid-column: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 #how{
@@ -249,7 +249,6 @@ li {
     font-family: 'Zen Kaku Gothic Antique';
     padding-top: 55px;
     padding-left: 28px;
-    padding-bottom: -25px;
     font-weight: bold;
     border: 20px solid #5b5b5c;
     
@@ -296,7 +295,6 @@ li {
     padding-right: 50px;
     padding-top: 30px;
     padding-bottom: 30px;
-    font-display: block;
 }
 
 footer h3 {
