@@ -345,11 +345,25 @@ footer a:hover {
 }
 
 @media screen and (max-width: 900px){
-    #introduction_to_tutoring {
+    #content  {
         display: block;
+        height: auto;
     }
-    
-    /* body {
+    #introduction_to_tutoring {
+       flex-direction: column;
+    }
+     #what_is_it {
         display: block;
-    } */
+        height: auto;
+    }
+    #who_and_what  {
+        display: block;
+        height: auto;
+    }
+    #tutoring_how  {
+        display: block;
+        height: auto;
+    }
+
+   
 }
